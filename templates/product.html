@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'images/producticon.png' %}">
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script> src={% static 'bootstrap/js/bootstrap.min.js' %}</script>
+
+    <style>
+        img{
+            width: 25%;
+            height: 25%;
+
+        }
+    </style>
+
+</head>
+
+<body>
+<h1 class="text-center text-success">Property Information</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorum ea hic placeat recusandae. Dignissimos ducimus fuga, magnam nesciunt, nihil nisi non nostrum quis quisquam quo quod repudiandae, tenetur veniam!</span><span>Autem et natus numquam quae totam. Ab alias architecto beatae cumque labore laudantium magnam nihil vero voluptate. Dolore, dolorem, harum id ipsam magni, nam placeat quis rerum sapiente sunt temporibus.</span></p>
+
+<table class="table table-hover table-bordered container">
+
+    <tr>
+        <th>Property Name</th>
+        <th>Property Image</th>
+        <th>Property Owner</th>
+        <th>Location</th>
+        <th>Price</th>
+    </tr>
+
+    <tr>
+        <td>Kipro Centre</td>
+        <td><img src="{% static 'images/property.png' %}" alt="" class="rounded-circle"> </td>
+        <td>James Kamau</td>
+        <td>Westlands</td>
+        <td>Ksh. 20,000,000</td>
+    </tr>
+
+     <tr>
+        <td>Kipro Centre</td>
+        <td><img src="{% static 'images/property1.png' %}" alt="" class="rounded-circle"> </td>
+        <td>Aaron Kariuki</td>
+        <td>Westlands</td>
+        <td>Ksh. 17,000,000</td>
+    </tr>
+
+     <tr>
+        <td>Kipro Centre</td>
+        <td><img src="{% static 'images/property2.png' %}" alt="" class="rounded-circle"> </td>
+        <td>Emma Mwangi</td>
+        <td>Westlands</td>
+        <td>Ksh. 22,500,000</td>
+    </tr>
+
+     <tr>
+        <td>Kipro Centre</td>
+        <td><img src="{% static 'images/property3.png' %}" alt="" class="rounded-circle"> </td>
+        <td>David Karanja</td>
+        <td>Westlands</td>
+        <td>Ksh. 25,000,000</td>
+    </tr>
+
+     <tr>
+        <td>Kipro Centre</td>
+        <td><img src="{% static 'images/property4.png' %}" alt="" class="rounded-circle"> </td>
+        <td>Vanessa Wanjiku</td>
+        <td>Westlands</td>
+        <td>Ksh. 17,500,000</td>
+    </tr>
+</table>
+</body>
+</html>
